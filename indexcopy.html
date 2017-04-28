@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<meta charset=utf-8 />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+    	<meta name="author" content="">
+
+        <!--links to Mapbox and Leaflet-->
+		<script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+		<link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+	
+	       <title>Southampton Kids Map</title>
+
+        <!--Links to CSS files and Google Fonts-->
+		<link href="css/bootstrap.min.css" rel="stylesheet">		 
+		<link href="css/custom.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Reem+Kufi|Dekko" rel="stylesheet">
+	
+	</head>
+<body>
+
+<!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <a class="navbar-brand" href="#">Kids Map Southampton</a>
+        </div>
+    </nav>
+
+<!--First Image-->
+<header class="image-bg-fluid-height"></header>
+
+<!--About Section-->
+    <section>
+        <div class="container1">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a href="http://www.freepik.com/free-vector/urban-city-flat-design_829201.htm">Designed by Freepik</a>
+                    <p class="section-paragraph">Fun places and things to do with your kids in the Southampton area. Click the toggle to view cool places. Click the markers for information. Send your ideas and suggestions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Contact Button-->
+    <input type=button onClick="location.href='contact_me.html'" value="Contact">
+
+        <script type="text/javascript">
+            $('#button').click(function(){
+                alert("Please drop me an email at adellewigley@gmail.com. Thank you!");
+            });
+        </script>
+
+<!--Map-->
+<div id="map"></div>
+
+    <section>
+        <script src="js/map.js"></script>
+	</section>
+
+<!--Share Links-->
+<section>
+    <div class="container2">
+        <div class="row">
+            <div class="col-lg-12">
+
+        <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            </div>
+        </div>
+    </div>
+</section>  
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+<!--Twitter Javascript link-->
+    <script>window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+
+        t._e = [];
+        t.ready = function(f) {
+        t._e.push(f);
+        };
+
+        return t;
+        }(document, "script", "twitter-wjs"));</script>
+
+<!--Footer-->
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Adelle Wigley 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>  
+
+</body>
+
+</html>

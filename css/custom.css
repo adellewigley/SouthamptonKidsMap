@@ -1,0 +1,82 @@
+html, body {
+            margin-top: 40px;
+            height: 100%;
+            width: 100%;
+            background-color: #C9DDA4;
+            text-align: center;
+            margin-bottom: 0px;
+    }
+
+.image-bg-fluid-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+    background: url('http://res.cloudinary.com/d5iwsgbtko/image/upload/g_center/v1480881359/33245-NZCLE4_dxkusv.jpg') no-repeat center center scroll;
+    height: 800px;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    font-family: 'Fredoka One', cursive;
+    padding: 40px;
+}
+
+.container {
+    height: 110px;
+}
+
+.container1 {
+    padding: 20px;
+}
+
+.container2 {
+    padding: 20px;
+}
+
+#map {
+            height: 600px;
+            width: 97%;
+            margin-left: auto;
+            margin-right: auto;
+
+    }
+
+.section-paragraph {
+    margin: 20px 0;
+    font-size: 30px;
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    color: black;
+}
+
+input[type="button"] {
+      background: black;
+      color: grey;
+      padding: 5px 10px 5px 10px;
+      font-size: 25px;
+      font-family: 'Fredoka One', cursive;
+      border: 0px;
+      margin-bottom: 50px;
+      border-radius: 10px;
+    }
+
+footer {
+    font-family: 'Dekko', cursive;
+    font-size: 15px;
+    color: grey;
+    background-color: black;
+    text-align: center;
+    height: 75px;
+    padding: 25px
+}
+
+
